@@ -1,0 +1,13 @@
+
+.sidebar-link {
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .sidebar-link:hover {
+    transform: translateX(5px);
+  }
+  
+  
+  [aria-current="page"] {
+    @apply bg-blue-500/10 border-l-4 border-blue-500;
+  }
