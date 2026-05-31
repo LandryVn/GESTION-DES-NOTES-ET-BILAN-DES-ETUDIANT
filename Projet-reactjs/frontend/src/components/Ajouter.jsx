@@ -42,7 +42,7 @@ export default function AjouterSimple() {
  
   return (
     <div className="max-w-md mx-auto mt-5 p-5 border border-gray-200 rounded-lg shadow-sm">
-      <h2 className="text-2xl font-bold text-gray-800 mb-5">Ajouter un Étudiant</h2>
+      {/* <h2 className="text-2xl font-bold text-gray-800 mb-5">Ajouter un Étudiant</h2> */}
       
       {message && (
         <div className={`p-3 mb-5 rounded-md ${
